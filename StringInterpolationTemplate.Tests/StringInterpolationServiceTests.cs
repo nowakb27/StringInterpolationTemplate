@@ -25,7 +25,7 @@ public class StringInterpolationServiceTests
     {
         var response = _service.Number01();
 
-        Assert.Equal("                        January 22, 2019", response);
+        Assert.Equal("January 22, 2019", response);
     }
 
     [Fact]
@@ -65,7 +65,7 @@ public class StringInterpolationServiceTests
     {
         var response = _service.Number06();
 
-        Assert.Equal("  11:01 PM   Tuesday", response);
+        Assert.Equal("  11:01 PM    Tuesday", response);
     }
 
     [Fact]
